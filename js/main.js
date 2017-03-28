@@ -934,16 +934,16 @@
         function initialize() {
             var map;
             var panorama;
-            var var_latitude = 37.8614626; // Google Map Latitude
-            var var_longitude = 20.625886; // Google Map Longitude
+            var var_latitude = 43.5268443; // Google Map Latitude
+            var var_longitude = 5.4448414; // Google Map Longitude
             var pin = 'images/icons/pin.svg';
 
             //Map pin-window details
-            var title = "Zante Hotel - Click to see";
-            var hotel_name = "Zante Hotel";
-            var hotel_address = "25, Navagio Zakynthos, Greece";
-            var hotel_desc = "5 star deluxe Hotel";
-            var hotel_more_desc = "Lorem ipsum dolor sit amet, consectetur.";
+            var title = "Lux en Provence";
+            var hotel_name = "Lux en Provence";
+            var hotel_address = "15 Cours Mirabeau";
+            var hotel_desc = "Agence immobilière";
+            var hotel_more_desc = "";
 
             var hotel_location = new google.maps.LatLng(var_latitude, var_longitude);
             var mapOptions = {
